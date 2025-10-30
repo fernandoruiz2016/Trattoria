@@ -1,4 +1,4 @@
-# DELIVERY APP REACT
+# Trattoria Bella - Desarrollo de Interfaces 2
 ## Instalación
 
 Utiliza la version de [Node.js](https://nodejs.org/) mayor a la v22
