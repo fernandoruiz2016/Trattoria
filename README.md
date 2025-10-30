@@ -14,7 +14,7 @@ npm run dev
 
 ## Features
 
-| Feature | Fecha creacion | Creado poy |
+| Feature | Fecha creacion | Creado por |
 |---------|----------------|------------|
 | Diseño Figma | 16/10/2025 | Fernando|
 | Reserva | 23/10/2025 | Franklin|
