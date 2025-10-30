@@ -1,0 +1,128 @@
+header {
+    width: 100%;
+    min-height: 85px;
+    max-height: 85px;
+    background-color: white;
+    color: #4B4238;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.contenedor-logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.contenedor-logo .titulo {
+    color: #4B4238;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 65px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+nav a {
+    color: #4B4238;
+    font-weight: normal;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.menu-desplegable {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    padding: 10px;
+}
+
+.menu-desplegable::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 8%;
+    width: 80%;
+    height: 2px;
+    background-color: #4B4238;
+}
+
+.menu-desplegable a {
+    color: #4B4238;
+    font-weight: normal;
+    font-size: 1.3rem;
+    position: relative;
+    padding: 4px 0;
+}
+
+.menu-desplegable a:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60vw;
+    height: 2px;
+    background-color: #4B4238;
+}
+
+@media screen and (max-width: 768px) {
+
+    .contenedor-logo {
+        justify-content: flex-end;
+        width: 60%;
+    }
+
+    .contenedor-logo .titulo {
+        font-size: 1.5rem;
+    }
+
+    nav {
+        justify-content: flex-end;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .contenedor-logo {
+        justify-content: flex-end;
+        width: 80%;
+    }
+}

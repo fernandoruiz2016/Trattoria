@@ -1,0 +1,69 @@
+.visitanos {
+    width: 80%;
+    background-color: white;
+    color: #4B4238;
+    border-radius: 20px;
+    padding: 2%;
+    margin: auto;
+    display: flex;
+}
+
+.visitanos-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.grupo-info {
+    display: flex;
+    gap: 20px;
+}
+
+.grupo-info svg {
+    transform: translateY(10px);
+}
+
+.texto p {
+    margin-left: 20px;
+}
+
+.contenedor-mapa {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa {
+    width: 80%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .visitanos {
+        flex-direction: column;
+    }
+
+    .visitanos-info {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grupo-info svg {
+        transform: translateX(55px);
+    }
+
+    .texto {
+        width: 200px;
+    }
+
+    .texto p {
+        margin-left: -30%;
+    }
+
+    .contenedor-mapa {
+    width: 100%;
+}
+}
