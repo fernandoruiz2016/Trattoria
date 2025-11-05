@@ -1,4 +1,7 @@
 # Trattoria Bella - Desarrollo de Interfaces 2
+Aplicación web desarrollada con **React** para la gestión de reservas de una trattoria.
+El proyecto forma parte del curso Desarrollo de Interfaces 2 e incluye componentes reutilizables, animaciones y diseño responsive.
+
 ## Instalación
 
 Utiliza la version de [Node.js](https://nodejs.org/) mayor a la v22
@@ -6,21 +9,27 @@ Utiliza la version de [Node.js](https://nodejs.org/) mayor a la v22
 Estos son los comandos a utilizar
 
 ```sh
+# 1. Clonar el repositorio
 git clone https://github.com/fernandoruiz2016/Trattoria
+
+# 2. Entrar en la carpeta del proyecto
 cd react-my-app
+
+# 3. Instalar dependencias
 npm install
+
+# 4. Ejecutar en modo desarrollo
 npm run dev
 ```
-
-Ten en cuenta:
-- Reemplaza las imágenes en `public/imagenes/` por las tuyas (`logo.jpg`, `pizza.jpg`).
-- Flujo: al iniciar verás el botón **Confirmar reserva**. Al hacer clic se muestra la confirmación y el ✔ aparece con animación de rebote.
+Luego, abre tu navegador en la dirección que aparece en consola
 
 
 ## Features
 
 | Feature | Fecha creacion | Creado por |
 |---------|----------------|------------|
-| Diseño Figma | 16/10/2025 | Fernando|
+| Diseño | 16/10/2025 | Fernando|
 | Reserva | 23/10/2025 | Franklin|
 | Inicio | 28/10/2025 | Fernando|
+| Confirmacion | 05/11/2025 | Luis|
+| Diseño responsive | 05/11/2025 | Ítalo|
