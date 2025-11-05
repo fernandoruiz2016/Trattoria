@@ -28,8 +28,8 @@ Luego, abre tu navegador en la dirección que aparece en consola
 
 | Feature | Fecha creacion | Creado por |
 |---------|----------------|------------|
-| Diseño | 16/10/2025 | Fernando|
-| Reserva | 23/10/2025 | Franklin|
-| Inicio | 28/10/2025 | Fernando|
-| Confirmacion | 05/11/2025 | Luis|
-| Diseño responsive | 05/11/2025 | Ítalo|
+| Diseño | 16/10/2025 | Fernando Ruiz|
+| Reserva | 23/10/2025 | Franklin Chiara|
+| Inicio | 28/10/2025 | Fernando Ruiz|
+| Confirmacion | 05/11/2025 | Luis Charcape|
+| Diseño responsive | 05/11/2025 | Ítalo Calle|
