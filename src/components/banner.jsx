@@ -1,4 +1,5 @@
 import './banner.css'
+import { Link } from "react-router-dom";
 
 export const Banner = () => {
     return (
@@ -9,7 +10,7 @@ export const Banner = () => {
                 <div className='banner-content'>
                     <h1>Un sabor de Italia a tu paladar</h1>
                     <p>Experimenta la autentica comida italiana con nosotros</p>
-                    <button>Reserva una mesa</button>
+                    <Link to="/reserva" className='boton-reserva'>Reserva una mesa</Link>
                 </div>
             </div>
         </>

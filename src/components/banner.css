@@ -34,20 +34,23 @@
     width: 80%;
 }
 
-.banner-content button {
+.banner-content .boton-reserva {
     margin-top: 5%;
     background-color: #C93028;
     color: white;
     cursor: pointer;
     transition: transform 0.3s ease;
+    padding: 10px 5% 10px;
+
+    border-radius: 10px;
 }
 
-.banner-content button:hover {
+.banner-content .boton-reserva:hover {
     background-color: #b22b24;
     transform: scale(1.05);
 }
 
-.banner-content button:active {
+.banner-content .boton-reserva:active {
     background-color: #8d231d;
 }
 
