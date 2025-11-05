@@ -26,7 +26,7 @@ export const Header = () => {
                     </svg>
                 </nav>
                 <div className={menuVisible ? "menu-desplegable" : "hidden"}>
-                    <Link>Reservar</Link>
+                    <Link to="/reserva">Reservar</Link>
                     <Link>Menú</Link>
                     <Link>Ubicación</Link>
                     <Link>Contacto</Link>

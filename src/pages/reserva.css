@@ -1,17 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
 
 * {
     box-sizing: border-box;
 }
-
-/* body {
-    font-family: "Montserrat", sans-serif;
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    font-size: 13px;
-} */
 
 .App {
     width: 100%;
@@ -254,6 +244,7 @@
     color: #333;
     border-top: 1px solid #ddd;
 }
+
 
 @media (max-width: 900px) {
     .contact-info {

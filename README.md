@@ -12,6 +12,11 @@ npm install
 npm run dev
 ```
 
+Ten en cuenta:
+- Reemplaza las imágenes en `public/imagenes/` por las tuyas (`logo.jpg`, `pizza.jpg`).
+- Flujo: al iniciar verás el botón **Confirmar reserva**. Al hacer clic se muestra la confirmación y el ✔ aparece con animación de rebote.
+
+
 ## Features
 
 | Feature | Fecha creacion | Creado por |

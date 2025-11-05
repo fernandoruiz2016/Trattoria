@@ -13,7 +13,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Inicio />} />
           <Route path="/reserva" element={<Reserva />} />
-          {/* <Route path="/confirmacion" element={<Confirmacion />} /> */}
         </Routes>
       </BrowserRouter>
     </>
