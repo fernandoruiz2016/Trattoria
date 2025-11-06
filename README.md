@@ -33,3 +33,4 @@ Luego, abre tu navegador en la dirección que aparece en consola
 | Inicio | 28/10/2025 | Fernando Ruiz|
 | Confirmacion | 05/11/2025 | Luis Charcape|
 | Diseño responsive | 05/11/2025 | Ítalo Calle|
+| DOcumentacion | 06/11/2025 | Jordi Martínez|
